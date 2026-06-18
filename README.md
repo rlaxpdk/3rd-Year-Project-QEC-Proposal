@@ -1,6 +1,4 @@
-# 3rd-Year-Project-QEC-Proposal
-UoM Soochan Kim's Final Year Project Proposal
-
+**Final Year Individual Project — University of Manchester**  
 Department of Electrical and Electronic Engineering  
 Academic Year 2026–27
 
@@ -8,7 +6,7 @@ Academic Year 2026–27
 
 ## Project overview
 
-This project investigates how noise affects quantum systems and how it can be mitigated through quantum error correction (QEC). Using IBM's Qiskit framework, various noise models and error correcting codes are implemented and analysed through simulation — with no physical quantum hardware required.
+This project investigates how noise affects quantum systems and how it can be mitigated through quantum error correction (QEC). Using IBM's Qiskit framework, various QEC codes are implemented, simulated, and then validated on real IBM quantum hardware — allowing a direct comparison between ideal simulation and real-world quantum noise.
 
 The project is motivated by the fundamental challenge in quantum computing: qubits are extremely fragile and susceptible to environmental noise, making error correction one of the most critical problems in the field.
 
@@ -19,6 +17,8 @@ The project is motivated by the fundamental challenge in quantum computing: qubi
 - Understand and characterise key quantum noise models (bit-flip, phase-flip, depolarising)
 - Implement quantum error correcting codes of increasing complexity
 - Simulate and compare the effectiveness of each code under different noise conditions
+- Validate results on real IBM quantum hardware via IBM Quantum
+- Compare simulation results against real hardware results and analyse discrepancies
 - Analyse performance trade-offs (qubit overhead vs error suppression)
 
 ---
@@ -41,6 +41,7 @@ The project is motivated by the fundamental challenge in quantum computing: qubi
 - **Python** — primary language
 - **Qiskit** — quantum circuit design and simulation
 - **Qiskit Aer** — noise model simulation
+- **IBM Quantum** — real quantum hardware validation (free tier)
 - **Matplotlib / NumPy** — data analysis and visualisation
 
 ---
@@ -59,6 +60,9 @@ The most practical QEC code used by Google and IBM in real quantum hardware. Sim
 ### Phase 4 — Comparative analysis
 Performance of all three codes compared across varying noise levels. Metrics include logical error rate, qubit overhead, and circuit depth.
 
+### Phase 5 — Real hardware validation
+Selected QEC codes run on real IBM quantum computers via IBM Quantum (free tier). Results compared against simulation to analyse the impact of real-world hardware noise.
+
 ---
 
 ## Expected outcomes
@@ -66,16 +70,9 @@ Performance of all three codes compared across varying noise levels. Metrics inc
 - Working Qiskit implementations of three QEC codes
 - Benchmarking data across noise models and code types
 - Clear visualisation of error suppression effectiveness
+- Simulation vs real hardware comparison and analysis
 - Final project report and presentation
 
 ---
 
-## References
-
-- Nielsen & Chuang, *Quantum Computation and Quantum Information* (2000)
-- Qiskit documentation — https://docs.quantum.ibm.com
-- Vijayan et al., quantum noise and mitigation research, University of Manchester
-
----
-
-*This project is proposed as a bespoke final year project under the supervision of Dr Jayadev Vijayan, Quantum Engineering Lab, University of Manchester.*
+*This document is a proposal for a bespoke final year individual project for supervisor approval.*
