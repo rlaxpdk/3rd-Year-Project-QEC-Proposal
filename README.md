@@ -1,6 +1,6 @@
 # Quantum Noise Characterisation and Mitigation via Qiskit Simulation
 
-**Final Year Individual Project Proposal — University of Manchester**  
+**Final Year Individual Project — University of Manchester**  
 Department of Electrical and Electronic Engineering  
 Academic Year 2026–27
 
@@ -12,7 +12,7 @@ This project investigates how noise affects quantum systems and how it can be mi
 
 The project is motivated by the fundamental challenge in quantum computing: qubits are extremely fragile and susceptible to environmental noise, making error correction one of the most critical problems in the field.
 
-Python fundamentals will be studied prior to the project start. All code, results, and documentation will be version-controlled and backed up via GitHub throughout the project.
+Prior to the project start, a structured pre-study period will cover Python, quantum mechanics fundamentals, and Qiskit — ensuring the full 9-month project period is dedicated to implementation, analysis, and write-up. All code, results, and documentation will be version-controlled and backed up via GitHub throughout the project.
 
 ---
 
@@ -27,16 +27,26 @@ Python fundamentals will be studied prior to the project start. All code, result
 
 ---
 
+## Pre-study (before project start — summer/holiday period)
+
+| Topic | Description |
+|-------|-------------|
+| Python | Core Python programming fundamentals |
+| Quantum mechanics | Qubits, superposition, entanglement, measurement |
+| Qiskit | Quantum circuit basics, Qiskit Aer simulator |
+| QEC concepts | Key papers and introductory reading on error correction |
+
+---
+
 ## Timeline
 
 | Month | Phase | Description |
 |-------|-------|-------------|
-| 1–2 | Background study | Quantum mechanics fundamentals, Qiskit, noise models |
-| 3 | Repetition & 3-qubit code | Implement and validate on real hardware |
-| 4 | Steane code (7-qubit) | Implement and validate on real hardware |
-| 5 | Shor code (9-qubit) | Implement and validate on real hardware |
-| 6 | Surface code (17-qubit) | Implement via simulation only |
-| 7–8 | Analysis | Compare all codes, visualise results |
+| 1 | Repetition & 3-qubit code | Implement, simulate, and validate on real hardware |
+| 2–3 | Steane code (7-qubit) | Implement, simulate, and validate on real hardware |
+| 3–4 | Shor code (9-qubit) | Implement, simulate, and validate on real hardware |
+| 5–6 | Surface code (17-qubit) | Implement via simulation only |
+| 7–8 | Analysis & hardware validation | Compare all codes, visualise results, run hardware jobs |
 | 8–9 | Report & presentation | Final write-up and project submission |
 
 ---
@@ -76,6 +86,8 @@ The most practical QEC code used by Google and IBM in real quantum hardware. Sim
 
 ### Phase 6 — Comparative analysis
 All five codes compared across varying noise levels. Metrics include logical error rate, qubit overhead, and circuit depth. Simulation vs real hardware results analysed and discussed.
+
+Throughout all phases, relevant literature and research papers will be reviewed on an ongoing basis to address knowledge gaps as they arise and ensure implementations remain grounded in current research.
 
 ---
 
